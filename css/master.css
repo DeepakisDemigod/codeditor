@@ -40,6 +40,7 @@ nav header  {
 }
 
 nav header #status {
+  /*width: 300px;*/
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -101,7 +102,7 @@ main {
   padding-bottom: 1px;
   margin-bottom: -5px;
   
-  padding: 10px 30px;
+  /*padding: 10px 30px;*/
 
 }
 
@@ -119,8 +120,8 @@ main {
   right: 0;
   bottom: 0;
   top: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 120vw;
+  height: 120vh;
   font-size: 11px;
   font-weight: medium;
   z-index: 1;
@@ -132,10 +133,10 @@ main {
 }
 
 .extra {
-  width: 100%;
+  width: 120vw;
   background: none;
   position: absolute;
-  bottom: 0;
+  bottom: -120px;
   z-index: 999;
   height: 30px;
   display: flex;
@@ -166,11 +167,11 @@ main {
 
 
 #output {
-  margin: 0px 0px 90px 10px;
-  width: 95vw;
-  height: 90vh;
+  margin: 0px 0px 90px 0px;
+  width: 120vw;
+  height: 120vh;
   background: #fff;
-  margin-top: 55px;
+  margin-top: 50px;
   font-size: 8px;
   font-family: Arial, sans-serif;
   resize: both;
