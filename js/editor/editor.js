@@ -86,7 +86,7 @@ function run() {
 const runButton = document.getElementById('run')
 
 function runAndLoad() {
-  // load()
+  load()
   run()
 }
 
