@@ -1,0 +1,203 @@
+:root {
+  --primaryColor: /*rgba(1, 30, 58, 255)*/#0b132b;
+  --secondaryColor: #00337C;
+  --tertiaryColor: #1C82AD;
+  --quaternaryColor: #00FFCA;
+  --selectionColor: /*#009578BA*//*#6fffe9*/rgba(111, 255, 233, 0.2)
+;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: var(--primaryColor);
+  color: white;
+}
+
+/* nav starts */
+nav * {
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--secondaryColor);
+}
+
+nav header  {
+  z-index: 2;
+}
+
+nav header #status {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(26, 53, 92, 1);
+  border-bottom: 0.5px double rgba(225,225,225,0.2);
+  padding: 5px;
+  opacity: 1;
+}
+
+#status button {
+  /* margin-right: 10px; */
+  margin-bottom: 5px;
+  width: 25%;
+  height: 28px;
+  
+  
+  /* button style */
+  background: var(--primaryColor);
+  color: white;
+  border: none;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.4;
+  background: var(--primaryColor);
+  /* background: linear-gradient(to bottom right, rgba(1, 30, 58, 0.8), rgba(1, 30, 58, 0.2)); */
+  backdrop-filter: blur(10px);
+  font-size: 9px;
+}
+
+#status button img {
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+}
+
+#status .logo img {
+  width: 95px;
+}
+
+/* nav ends */
+
+/* main starts */
+
+main {
+  background: var(--primaryColor);
+}
+
+#html,
+#css,
+#js,
+#web {
+  padding-bottom: 1px;
+  margin-bottom: -5px;
+  
+  padding: 10px 30px;
+
+}
+
+#html span, #css span, #js span, #web span {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+}
+
+#editor-html,
+#editor-css,
+#editor-js,
+#output {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 11px;
+  font-weight: medium;
+  z-index: 1;
+  margin-top: 50px;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 13px;
+}
+
+.extra {
+  width: 100%;
+  background: none;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.extra button {
+  background: #0b132b;
+  color: /*#6fffe9*/white;
+  padding: 7px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  transition: 0.2s;
+  font-size: 14px;
+  letter-spacing: 0.45px;
+  font-family: 'Ubuntu', sans-serif;
+  user-select: none;
+  z-index: 2;
+  margin: 0 10px 10px 0;
+  height: 100%;
+}
+
+.extra button:active {
+  transition: 0.2s;
+  transform: scale(1.09);
+}
+
+
+#output {
+  margin: 0px 0px 90px 10px;
+  width: 95vw;
+  height: 90vh;
+  background: #fff;
+  margin-top: 55px;
+  font-size: 8px;
+  font-family: Arial, sans-serif;
+  resize: both;
+}
+
+#run {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: royalblue;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  transition: 0.2s;
+  font-size: 14px;
+  letter-spacing: 0.45px;
+  font-family: 'Ubuntu', sans-serif;
+  user-select: none;
+  z-index: 2;
+  margin: 0 10px 10px 0;
+}
+
+
+#run:active {
+  transition: 0.2s;
+  transform: scale(1.09);
+}
+
