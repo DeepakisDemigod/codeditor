@@ -50,7 +50,7 @@ nav header #status {
   left: 0;
   background: rgba(26, 53, 92, 1);
   border-bottom: 0.5px double rgba(225,225,225,0.2);
-  padding: 5px;
+  padding-top: 5px;
   opacity: 1;
 }
 
@@ -58,7 +58,7 @@ nav header #status {
   /* margin-right: 10px; */
   margin-bottom: 5px;
   width: 25%;
-  height: 28px;
+  height: 38px;
   
   
   /* button style */
@@ -125,7 +125,7 @@ main {
   font-size: 11px;
   font-weight: medium;
   z-index: 1;
-  margin-top: 50px;
+  margin-top: 60px;
   display: block;
   font-weight: bold;
   letter-spacing: 0.5px;
