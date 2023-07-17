@@ -9,6 +9,7 @@ editor_html_default = `<!DOCTYPE html>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>app</title>
+  <!-- water.css added -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
   <link rel="stylesheet" href="Style.css" />
 </head>
@@ -109,9 +110,9 @@ setTimeout(() => {
 }, 100)
 
 
-editor_html.setValue(localStorage.getItem('html') || editor_html_default)
-editor_css.setValue(localStorage.getItem('css') || editor_css_default)
-editor_js.setValue(localStorage.getItem('js') || editor_js_default)
+editor_html.setValue(/*localStorage.getItem('html') ||*/ editor_html_default)
+editor_css.setValue(/*localStorage.getItem('css') ||*/ editor_css_default)
+editor_js.setValue(/*localStorage.getItem('js') ||*/ editor_js_default)
 
 run()
 
