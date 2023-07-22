@@ -10,3 +10,6 @@ AstroVim & OneDark Theme inspired UI [codeditor](https://codeditor-v2.onrender.c
 🔗 https://codeditor-v2.onrender.com
 ```
 
+## screenshot (Andriod)
+
+![Alt text](screenshot/andriod_chrome.png)
