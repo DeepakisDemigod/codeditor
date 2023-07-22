@@ -1,5 +1,5 @@
 let editor_html = ace.edit("editor-html");
-editor_html.setTheme("ace/theme/cobalt");
+editor_html.setTheme("ace/theme/tomorrow_night_eighties");
 editor_html.session.setMode("ace/mode/html");
 
 editor_html_default = `<!DOCTYPE html>
@@ -31,7 +31,7 @@ editor_html_default = `<!DOCTYPE html>
 // css code starts
 
 let editor_css = ace.edit("editor-css");
-editor_css.setTheme("ace/theme/cobalt");
+editor_css.setTheme("ace/theme/tomorrow_night_eighties");
 editor_css.session.setMode("ace/mode/css");
 editor_css_default = `body {
   font-family: monospace;
@@ -49,7 +49,7 @@ editor_css_default = `body {
 
 
 let editor_js = ace.edit("editor-js");
-editor_js.setTheme("ace/theme/cobalt");
+editor_js.setTheme("ace/theme/tomorrow_night_eighties");
 editor_js.session.setMode("ace/mode/javascript");
 editor_js_default = `console.log('hello world')
 
