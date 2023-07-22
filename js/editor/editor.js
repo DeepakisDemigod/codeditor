@@ -110,9 +110,9 @@ setTimeout(() => {
 }, 100)
 
 
-editor_html.setValue(/*localStorage.getItem('html') ||*/ editor_html_default)
-editor_css.setValue(/*localStorage.getItem('css') ||*/ editor_css_default)
-editor_js.setValue(/*localStorage.getItem('js') ||*/ editor_js_default)
+editor_html.setValue(localStorage.getItem('html') || editor_html_default)
+editor_css.setValue(localStorage.getItem('css') || editor_css_default)
+editor_js.setValue(localStorage.getItem('js') || editor_js_default)
 
 run()
 
