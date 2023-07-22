@@ -2,7 +2,7 @@
   --primaryColor: #1f1f25;
   --secondaryColor: #272c35/*#00337C*/;
   --tertiaryColor: #1C82AD;
-  --quaternaryColor: #00FFCA;
+  --quaternaryColor: #03C988;
   --selectionColor: /*#009578BA*//*#6fffe9*/rgba(111, 255, 233, 0.2)
 ;
 }
@@ -183,7 +183,7 @@ main {
   bottom: 0;
   right: 0;
   background: var(--quaternaryColor);
-  color: var(--primaryColor);
+  color: #fff;
   padding: 7px 12px;
   border-radius: 4px;
   font-weight: bold;
