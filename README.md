@@ -1,8 +1,8 @@
-# codeditor
+# 🌀 codeditor 🌀
 
 Simple code editor for html5, css3 and vanilla javascript made using ace.c9.io
 
-## 🌌 Easy on Eyes (Night)
+## easy on eyes (night theme)
 
 AstroVim & OneDark Theme inspired UI [codeditor](https://codeditor-v2.onrender.com/) .
 
@@ -10,6 +10,6 @@ AstroVim & OneDark Theme inspired UI [codeditor](https://codeditor-v2.onrender.c
 🔗 https://codeditor-v2.onrender.com
 ```
 
-## screenshot (Andriod)
+## screenshot (andriod chrome)
 
-![Alt text](screenshot/andriod_chrome.png)
+![codeditor_screensht](screenshots/andriod_chrome.png)
