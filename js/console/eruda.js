@@ -12,9 +12,9 @@ function load() {
   script.src = "//cdn.jsdelivr.net/npm/eruda";
   document.getElementById("output").appendChild(script);
 
-  script.onload = function () {
+  script.onload = function() {
     eruda.init({
-      tool: ['console','settings'], // Only include 'console' and 'settings' tabs
+      tool: ['console', 'settings'], // Only include 'console' and 'settings' tabs
       theme: 'material-deep-ocean',
     });
     erudaInitialized = true; // Mark Eruda as initialized
