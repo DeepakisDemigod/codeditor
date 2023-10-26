@@ -107,7 +107,7 @@ main {
 }
 
 #html span, #css span, #js span, #web span {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Inclusive Sans', 'Inter', sans-serif; 
   font-size: 13px;
 }
 
@@ -131,6 +131,7 @@ main {
   letter-spacing: 0.5px;
   line-height: 13px;
   background: var(--primaryColor);
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .extra {
@@ -154,7 +155,7 @@ main {
   transition: 0.2s;
   font-size: 14px;
   letter-spacing: 0.45px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Inclusive Sans', sans-serif;
   user-select: none;
   z-index: 2;
   margin: 0 10px 10px 0;
@@ -174,7 +175,7 @@ main {
   background: #fff;
   margin-top: 50px;
   font-size: 8px;
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
   resize: both;
 }
 
@@ -182,7 +183,7 @@ main {
   position: fixed;
   bottom: 0;
   right: 0;
-  background: var(--quaternaryColor);
+  background: #009578/*var(--quaternaryColor)*/;
   color: #fff;
   padding: 7px 12px;
   border-radius: 4px;
@@ -191,7 +192,7 @@ main {
   transition: 0.2s;
   font-size: 14px;
   letter-spacing: 0.45px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Inclusive Sans', sans-serif;
   user-select: none;
   z-index: 2;
   margin: 0 10px 10px 0;
