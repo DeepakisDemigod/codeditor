@@ -3,25 +3,17 @@ editor_html.setTheme("ace/theme/tomorrow_night_eighties");
 editor_html.session.setMode("ace/mode/html");
 
 editor_html_default = `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>app</title>
-  <!-- water.css added -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
-  <link rel="stylesheet" href="Style.css" />
-</head>
-<body>
-  
-  <!-- your code here -->
-  
-  <script src="Script.js"></script>
-</body>
+<html>
+  <head>
+    <title>Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
 </html>
-
-
 `
 
 
@@ -33,10 +25,13 @@ editor_html_default = `<!DOCTYPE html>
 let editor_css = ace.edit("editor-css");
 editor_css.setTheme("ace/theme/tomorrow_night_eighties");
 editor_css.session.setMode("ace/mode/css");
-editor_css_default = `body {
-  font-family: monospace;
+editor_css_default = `body{
+  padding: 25px;
 }
 
+.title {
+	color: #5C6AC4;
+}
 
 `
 
@@ -51,9 +46,13 @@ editor_css_default = `body {
 let editor_js = ace.edit("editor-js");
 editor_js.setTheme("ace/theme/tomorrow_night_eighties");
 editor_js.session.setMode("ace/mode/javascript");
-editor_js_default = `console.log('hello world')
-
-
+editor_js_default = `function showTime() {
+	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+}
+showTime();
+setInterval(function () {
+	showTime();
+}, 1000);
 
 
 `
